@@ -202,10 +202,10 @@ function generateJiraTemplate(prUrl, triggeredWorkflows, nextVersion) {
 
   // 각 서비스별로 섹션 생성
   const services = [
-    { key: "kr", name: "Korea Service" },
-    { key: "jp", name: "Japan Service" },
-    { key: "intl", name: "International Service" },
-    { key: "bo", name: "Backoffice" },
+    { key: "coloso-kr", name: "Korea Service" },
+    { key: "coloso-jp", name: "Japan Service" },
+    { key: "coloso-intl", name: "International Service" },
+    { key: "coloso-backoffice", name: "Backoffice" },
   ];
 
   services.forEach((service) => {
